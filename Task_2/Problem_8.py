@@ -10,7 +10,7 @@ while guesses < 5:
     guess = int(input(f"\nPick a # from {low} - {high}: "))
 
     if guess < low or guess > high:
-        print(f"{guess} is out of bounds.")
+        print(f"{guess} is out of range.")
     elif guess == number:
         print(f"Well done! {number} was the right answer.")
         break
